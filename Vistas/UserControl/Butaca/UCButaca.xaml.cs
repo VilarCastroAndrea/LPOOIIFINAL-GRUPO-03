@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Vistas.UserControl.Cliente
+namespace Vistas.UserControl.Butaca
 {
     /// <summary>
-    /// Lógica de interacción para UCCliente.xaml
+    /// Lógica de interacción para UCButaca.xaml
     /// </summary>
-    public partial class UCCliente 
+    public partial class UCButaca 
     {
-        public UCCliente()
+        public UCButaca()
         {
             InitializeComponent();
         }

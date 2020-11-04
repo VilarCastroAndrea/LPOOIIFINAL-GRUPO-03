@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Vistas.UserControl.Cliente
+namespace Vistas.UserControl.Proyeccion
 {
     /// <summary>
-    /// Lógica de interacción para UCCliente.xaml
+    /// Lógica de interacción para UCProyeccion.xaml
     /// </summary>
-    public partial class UCCliente 
+    public partial class UCProyeccion 
     {
-        public UCCliente()
+        public UCProyeccion()
         {
             InitializeComponent();
         }

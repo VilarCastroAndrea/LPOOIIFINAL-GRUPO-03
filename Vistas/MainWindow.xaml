@@ -10,31 +10,31 @@
     <Grid Background="Black">
         <Grid HorizontalAlignment="Left" Height="421" Margin="750,0,0,0" VerticalAlignment="Top" Width="54" Background="#FFFF5313">
             <!--Boton Clientes-->
-            <Button HorizontalAlignment="Left" Name="btnCliente" Margin="0,37,0,0" VerticalAlignment="Top" Width="46" Height="43"  BorderBrush="#FFFF5313"  Background="#FFFF5313">
+            <Button HorizontalAlignment="Left" Name="btnCliente" Margin="0,37,0,0" VerticalAlignment="Top" Width="46" Height="43"  BorderBrush="#FFFF5313"  Background="#FFFF5313" Click="BtnCliente_Click">
                 <fa:ImageAwesome Icon="StreetView" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" Height="33" Width="26" />
             </Button>
             <!--Boton Tickets-->
-            <Button HorizontalAlignment="Left" Name="btnTickets" Margin="0,85,0,0" VerticalAlignment="Top" Width="46" Height="43"  BorderBrush="#FFFF5313"  Background="#FFFF5313">
+            <Button HorizontalAlignment="Left" Name="btnTickets" Margin="0,85,0,0" VerticalAlignment="Top" Width="46" Height="43"  BorderBrush="#FFFF5313"  Background="#FFFF5313" Click="BtnTickets_Click">
                 <fa:ImageAwesome Icon="Ticket" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" Height="33" Width="36" />
             </Button>
             <!--Boton Cliente-->
-            <Button HorizontalAlignment="Left" Name="btnUsuario" Margin="0,133,0,0" VerticalAlignment="Top" Width="46" Height="43"  BorderBrush="#FFFF5313"  Background="#FFFF5313">
+            <Button HorizontalAlignment="Left" Name="btnUsuario" Margin="0,133,0,0" VerticalAlignment="Top" Width="46" Height="43"  BorderBrush="#FFFF5313"  Background="#FFFF5313" Click="BtnUsuario_Click">
                 <fa:ImageAwesome Icon="User" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" Height="33" Width="36" />
             </Button>
             <!--Boton Pelicula-->
-            <Button HorizontalAlignment="Left" Name="btnPelicula" Margin="0,181,0,0" VerticalAlignment="Top" Width="46" Height="43"  BorderBrush="#FFFF5313"  Background="#FFFF5313">
+            <Button HorizontalAlignment="Left" Name="btnPelicula" Margin="0,181,0,0" VerticalAlignment="Top" Width="46" Height="43"  BorderBrush="#FFFF5313"  Background="#FFFF5313" Click="BtnPelicula_Click">
                 <fa:ImageAwesome Icon="Film" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" Height="33" Width="36" />
             </Button>
             <!--Boton Butacas-->
-            <Button HorizontalAlignment="Left" Name="btnButaca" Margin="0,229,0,0" VerticalAlignment="Top" Width="46" Height="43"  BorderBrush="#FFFF5313"  Background="#FFFF5313">
+            <Button HorizontalAlignment="Left" Name="btnButaca" Margin="0,229,0,0" VerticalAlignment="Top" Width="46" Height="43"  BorderBrush="#FFFF5313"  Background="#FFFF5313" Click="BtnButaca_Click">
                 <fa:ImageAwesome Icon="Braille" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" Height="33" Width="36" />
             </Button>
             <!--Boton Proyecciones-->
-            <Button HorizontalAlignment="Left" Name="btnProyecciones" Margin="0,277,0,0" VerticalAlignment="Top" Width="46" Height="43"  BorderBrush="#FFFF5313"  Background="#FFFF5313">
+            <Button HorizontalAlignment="Left" Name="btnProyecciones" Margin="0,277,0,0" VerticalAlignment="Top" Width="46" Height="43"  BorderBrush="#FFFF5313"  Background="#FFFF5313" Click="BtnProyecciones_Click">
                 <fa:ImageAwesome Icon="FileMovieOutline" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" Height="33" Width="36" />
             </Button>
             <!--Boton Salir-->
-            <Button HorizontalAlignment="Left" Name="btnSalir" Margin="0,325,0,0" VerticalAlignment="Top" Width="46" Height="43"  BorderBrush="#FFFF5313"  Background="#FFFF5313">
+            <Button HorizontalAlignment="Left" Name="btnSalir" Margin="0,325,0,0" VerticalAlignment="Top" Width="46" Height="43"  BorderBrush="#FFFF5313"  Background="#FFFF5313" Click="BtnSalir_Click">
                 <fa:ImageAwesome Icon="Openid" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" Height="33" Width="36" />
             </Button>
         </Grid>

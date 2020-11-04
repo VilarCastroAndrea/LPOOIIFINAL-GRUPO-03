@@ -58,11 +58,26 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="UserControl\Butaca\UCButaca.xaml.cs">
+      <DependentUpon>UCButaca.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserControl\Cliente\UCCliente.xaml.cs">
       <DependentUpon>UCCliente.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserControl\Login\UCLogin.xaml.cs">
       <DependentUpon>UCLogin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\Pelicula\UCPelicula.xaml.cs">
+      <DependentUpon>UCPelicula.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\Proyeccion\UCProyeccion.xaml.cs">
+      <DependentUpon>UCProyeccion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\Ticket\UCTicket.xaml.cs">
+      <DependentUpon>UCTicket.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\Usuario\UCUsuario.xaml.cs">
+      <DependentUpon>UCUsuario.xaml</DependentUpon>
     </Compile>
     <Compile Include="WPFLogin.xaml.cs">
       <DependentUpon>WPFLogin.xaml</DependentUpon>
@@ -83,11 +98,31 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="UserControl\Butaca\UCButaca.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UserControl\Cliente\UCCliente.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UserControl\Login\UCLogin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl\Pelicula\UCPelicula.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl\Proyeccion\UCProyeccion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl\Ticket\UCTicket.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl\Usuario\UCUsuario.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
