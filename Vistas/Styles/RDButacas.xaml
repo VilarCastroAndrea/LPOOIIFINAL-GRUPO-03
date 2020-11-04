@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Vistas.Styles">
+
+    <!--Propiedades del botón butaca-->
+    <Style x:Key="ButtonButaca" TargetType="Button">
+        <Setter Property="Background" Value="#FF04292F"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border CornerRadius="20" Background="{TemplateBinding Background}" BorderThickness="1" BorderBrush="White">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                        </ContentPresenter>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

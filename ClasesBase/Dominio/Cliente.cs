@@ -76,16 +76,16 @@ namespace ClasesBase.Dominio
                 switch (columnName)
                 {
                     case "CliDNI":
-                        msg_error = validar_Dni();
+                        msg_error = validarDni();
                         break;
                     case "CliApellido":
-                        msg_error = validar_Apellido();
+                        msg_error = validarApellido();
                         break;
                     case "CliNombre":
-                        msg_error = validar_Nombre();
+                        msg_error = validarNombre();
                         break;
                     case "CliTelefono":
-                        msg_error = validar_Telefono();
+                        msg_error = validarTelefono();
                         break;
                 }
                 return msg_error;

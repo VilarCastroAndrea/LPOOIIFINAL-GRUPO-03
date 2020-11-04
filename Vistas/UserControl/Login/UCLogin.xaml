@@ -1,0 +1,55 @@
+﻿<UserControl x:Class="Vistas.UserControl.UCLogin"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Vistas.UserControl"
+             mc:Ignorable="d" 
+             d:DesignHeight="361" Width="348">
+    <Grid>
+        <!--Label Usuario y sus propiedades-->
+        <Label x:Name="lblUsuario" Content="Usuario" HorizontalAlignment="Left" Margin="25,201,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" FontSize="14" Background="#00000000" Foreground="White" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-4.830"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <!--TextBox Usuario y sus propiedades-->
+        <TextBox x:Name="txtbUsuario" HorizontalAlignment="Left" Height="20" Margin="30,225,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="130" Background="#FF353630" BorderBrush="#FF2E2F29" Foreground="White" FontSize="16" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-3.612"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <!--Label Contraseña y sus propiedades-->
+        <Label x:Name="lblContraseña" Content="Contraseña" HorizontalAlignment="Left" Margin="180,190,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" FontSize="14" Background="#00000000" Foreground="White" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-3.61"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <!--Password Box de Contraseña y sus propiedades-->
+        <PasswordBox x:Name="txtbContraseña" HorizontalAlignment="Left"  Height="20" Margin="185,215,0,0"   VerticalAlignment="Top" Width="130" Background="#FF353630" BorderBrush="#FF2E2F29" Foreground="White" FontSize="16" RenderTransformOrigin="0.491,1.223">
+            <PasswordBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-3.489"/>
+                    <TranslateTransform X="0.617" Y="0.043"/>
+                </TransformGroup>
+            </PasswordBox.RenderTransform>
+        </PasswordBox>
+    </Grid>
+</UserControl>
