@@ -38,6 +38,8 @@
                 <fa:ImageAwesome Icon="Openid" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" Height="33" Width="36" />
             </Button>
         </Grid>
-        <Grid x:Name="panelPrincipalMain" HorizontalAlignment="Left" Height="421" VerticalAlignment="Top" Width="750"/>
+        <Grid x:Name="panelPrincipalMain" HorizontalAlignment="Left" Height="421" VerticalAlignment="Top" Width="750">
+            <Image HorizontalAlignment="Left" Height="280" Margin="210,65,0,0" VerticalAlignment="Top" Width="370" Source="Img/logo.png"/>
+        </Grid>
     </Grid>
 </Window>
