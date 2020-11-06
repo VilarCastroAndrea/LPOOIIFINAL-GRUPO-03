@@ -56,6 +56,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
     <Compile Include="Trabajar\TrabajarButaca.cs" />
+    <Compile Include="Trabajar\TrabajarCliente.cs" />
+    <Compile Include="Trabajar\TrabajarPelicula.cs" />
+    <Compile Include="Trabajar\TrabajarProyeccion.cs" />
+    <Compile Include="Trabajar\TrabajarRol.cs" />
+    <Compile Include="Trabajar\TrabajarSala.cs" />
+    <Compile Include="Trabajar\TrabajarTicket.cs" />
     <Compile Include="Trabajar\TrabajarUsuario.cs" />
     <Compile Include="UsuarioLogin.cs" />
   </ItemGroup>
